@@ -2,12 +2,13 @@ package org.fast
 
 fun main() {
 //    println("Hello world")
-    Human().hello();
+//    Human().hello();
     val h =Human();
     h.hello();
 }
 class Human{
     fun hello(){
-        println("Hello kotlin")
+        val hh = "Hello kotlin"
+        println(hh)
 }
 }
